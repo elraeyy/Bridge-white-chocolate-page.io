@@ -1,0 +1,146 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .header-right, .header-right{
+        display: inline;
+    }
+    body > footer{
+        overflow: hidden;
+    }
+    .contact{
+        margin-left: 45%
+    }
+
+
+    
+  }
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-middle, .header-right{
+        display: none;
+    }    
+    body > header > section{
+        justify-content: center;
+    }
+    body > header{
+        background-color:rgba(101, 193, 190, 0);
+    }
+    footer{
+        overflow: hidden;
+    }
+    .contact{
+        margin-left: 45%
+    }
+    .first_row_cards, .first_row_cards_2{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .first_section {
+        flex-direction: column;
+    }
+    /* .second_section_cards{
+        display: flex;
+        flex-direction: column;
+    } */
+    .container{
+        text-align: -webkit-center;
+    }
+    .left{
+        height: 510%;
+    }
+    .right{
+        height: 510%;
+    }
+
+
+  }
+    
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .header-middle, .header-right{
+        display: none;
+    }    
+    body > header > section{
+        justify-content: center;
+    }
+    body > div.container > section > div.flex_area{
+        padding-top: 15%;
+        padding-bottom: 10%;
+        flex-direction: column;
+    }
+    .subscribe_form{
+        width: 100%;
+    }
+    .icons{
+        padding-top: 12%;
+        padding-left: 10%;
+        padding-bottom: 1%;
+    }
+    .contact{
+        margin-left: 35%;
+    }
+    body > footer{
+        overflow: hidden;
+    }
+    .first_row_cards, .first_row_cards_2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first_section {
+        flex-direction: column;
+    }
+    .second_section_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        text-align: -webkit-center;
+    }
+    .left{
+        height: 498%;
+    }
+    .right{
+        height: 498%;
+    }
+    
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header-middle, .header-right{
+        display: none;
+    }    
+    body > header > section{
+        justify-content: center;
+    }
+    body > div.container > section > div.flex_area{
+        padding-top: 15%;
+        padding-bottom: 10%;
+        flex-direction: column;
+    }
+    .subscribe_form{
+        width: 100%;
+    }
+    .contact {
+        margin-left: 80px;
+    }
+    .contact p {
+        font-size: 100%;
+    }
+    footer{
+        overflow: hidden;
+    }
+}    

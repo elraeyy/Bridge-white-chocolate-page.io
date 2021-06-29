@@ -1,0 +1,22 @@
+.left, .right{
+    height: 250%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.left, .right{
+    height: 310%;}
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+.left, .right{
+    height: 460%;}
+    footer{
+        overflow: hidden;
+    }
+
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.left, .right{
+    height: 250%;}
+
+}
